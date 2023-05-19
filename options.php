@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 
 require 'config.php'; 
 
-$file = "C:\Users\yound\OneDrive\Desktop\options.json.txt";
+$file = "./options.json.txt";
 $json = json_decode(file_get_contents($file), true);
 
 foreach ($json as $select)
